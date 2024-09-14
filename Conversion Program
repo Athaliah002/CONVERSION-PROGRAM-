@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class ConversionDemo{
+	public static void main(String[] args) {
+		
+		
+		//instantiate the scanner class
+   	Scanner myScanner = new Scanner(System.in);
+	
+
+
+	      System.out.print("Enter your ounce:");
+	      
+	      
+	      float ounces =myScanner.nextFloat();
+	      float grams = 28.35f;
+	      float total = ounces * grams;
+	      
+	      System.out.println("The value of  grams is:"+ total);
+		
+     	}
+    }//end of class
